@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import '../components/navbar/navbar.css'
-import {assets} from "../assets/assets"
+import '../navbar/navbar.css'
+import {assets} from "../../assets/assets"
 const Navbar = () => {
  const [menu,setMenu] = useState("home")
 
