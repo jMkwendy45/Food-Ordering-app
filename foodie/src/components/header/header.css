@@ -36,3 +36,16 @@
     border: none;
 
 }
+
+@media(max-width:750px){
+ 
+  .header-content{
+    max-width: 65%;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-content p{
+   padding: 2vw 4vw;
+  }
+}
